@@ -1,0 +1,616 @@
+{
+  "model_name": "Human Value Evolution – Empirical Synthesis",
+  "axes_definition": [
+    {
+      "axis": "Moral scope",
+      "description": "Range of moral concern: from narrow in-group/kin altruism to broad universalist ethics and inclusive compassion",
+      "disciplines": ["anthropology", "psychology", "evolutionary biology"]
+    },
+    {
+      "axis": "Authority structure",
+      "description": "Forms of leadership and social hierarchy: from egalitarian (no fixed leaders) to hierarchical (chiefs/kings) to institutional (bureaucratic or democratic governance)",
+      "disciplines": ["anthropology", "sociology", "political science"]
+    },
+    {
+      "axis": "Social cohesion mechanism",
+      "description": "Primary means of maintaining social order and cooperation: from kinship ties and reciprocity, to formal laws and enforcement, to abstract identities/ideologies uniting large groups",
+      "disciplines": ["anthropology", "sociology", "political science"]
+    },
+    {
+      "axis": "Individual autonomy vs collective obligation",
+      "description": "Balance between personal freedom and community duty: whether individuals are free to pursue personal goals or are tightly bound by obligations to family, tribe, or state",
+      "disciplines": ["psychology", "sociology", "anthropology"]
+    },
+    {
+      "axis": "Sacred/traditional norms vs rational-legal norms",
+      "description": "Basis of legitimacy and moral norms: rooted in sacred traditions, religious authority, and ancestral ways versus founded on secular, rational principles and formal legal codes",
+      "disciplines": ["history", "anthropology", "sociology"]
+    }
+  ],
+  "time_phases": [
+    {
+      "phase": "Late Paleolithic / Hunter-Gatherer",
+      "date_range": "~50,000–12,000 BP",
+      "dominant_conditions": [
+        {
+          "condition": "Nomadic foraging lifestyle; small kin-based bands (~25–50 people) with low population density and high mobility",
+          "evidence_disciplines": ["archaeology", "anthropology"]
+        },
+        {
+          "condition": "Relatively egalitarian social organization with minimal material wealth accumulation or permanent leadership positions",
+          "evidence_disciplines": ["archaeology", "anthropology"]
+        },
+        {
+          "condition": "Subsistence based on immediate returns (hunting and gathering); strong sharing norms to buffer resource uncertainty",
+          "evidence_disciplines": ["anthropology", "evolutionary biology"]
+        },
+        {
+          "condition": "Animistic or shamanistic belief systems and oral traditions guide cultural practices; no written laws or formal institutions",
+          "evidence_disciplines": ["archaeology", "anthropology"]
+        }
+      ],
+      "dominant_values": [
+        {
+          "value": "Kin-centric morality",
+          "description": "Moral obligations and altruism largely confined to kin and close band members; limited duties toward outsiders",
+          "axis": "Moral scope"
+        },
+        {
+          "value": "Egalitarian leadership",
+          "description": "Informal, situational leadership with decisions made by group consensus; strong social norms prevent any individual from asserting permanent authority",
+          "axis": "Authority structure"
+        },
+        {
+          "value": "Reciprocal cooperation",
+          "description": "Social cohesion maintained through direct reciprocity and sharing (e.g., food sharing, gift exchange) within the group, reinforced by trust and personal reputation",
+          "axis": "Social cohesion mechanism"
+        },
+        {
+          "value": "Collective survival focus",
+          "description": "Individuals have autonomy in daily tasks, but survival depends on communal effort; group welfare overrides personal accumulation, enforcing communal obligations",
+          "axis": "Individual autonomy vs collective obligation"
+        },
+        {
+          "value": "Sacred traditions",
+          "description": "Norms and taboos grounded in spiritual beliefs (animism, ancestor spirits); customary rituals and shamans hold social influence in the absence of codified law",
+          "axis": "Sacred/traditional norms vs rational-legal norms"
+        }
+      ],
+      "value_shift_summary": "During this phase, human values centered on intimate kin groups and immediate survival needs. Egalitarian sharing and kin loyalty were paramount, and no formal institutions existed. Toward the end of the Paleolithic, some groups showed hints of increased social complexity (e.g., larger ritual gatherings), but overall, moral scope and authority remained confined to the small band and its traditions.",
+      "evidence": [
+        {
+          "finding": "Ethnographic and archaeological data indicate that hunter-gatherer bands were highly egalitarian, with no permanent chiefs and social leveling mechanisms (like ridicule or ostracism) to prevent dominance by any individual",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        },
+        {
+          "finding": "Hunter-gatherer groups typically consisted of only a few dozen individuals who are mostly related; both archaeological camp sizes and observations of recent foragers support this small, kin-centric social scale",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        },
+        {
+          "finding": "Widespread evidence of food sharing and cooperative hunting in foraging societies shows that reciprocity was a key social norm ensuring group cohesion and mutual support",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        },
+        {
+          "finding": "Cave art, burial practices, and other Upper Paleolithic artifacts suggest animistic beliefs and communal rituals; these imply that spiritual traditions, rather than formal laws, guided behaviors and reinforced group values",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Skeletal remains and Paleolithic burials show relatively little status differentiation (few individuals with exceptionally rich graves), implying low wealth inequality and an absence of rigid social classes",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Late Paleolithic sites like Göbekli Tepe (~9600 BCE) reveal coordinated construction of large ritual structures by non-agrarian groups, indicating occasional large-scale cooperation and possibly nascent leadership roles beyond the immediate family circle",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Psychological studies of modern small-scale societies find strong in-group favoritism and wariness of outsiders, suggesting ancestral human morals were tightly focused on the tribe with limited obligations to unrelated groups",
+          "discipline": "psychology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "phase": "Neolithic / Early Agrarian",
+      "date_range": "~12,000–5,000 BP",
+      "dominant_conditions": [
+        {
+          "condition": "Shift to settled farming and herding; permanent villages established with growing populations",
+          "evidence_disciplines": ["archaeology"]
+        },
+        {
+          "condition": "Development of food surplus storage and beginnings of private property (land, livestock) which allowed some wealth accumulation",
+          "evidence_disciplines": ["archaeology", "anthropology"]
+        },
+        {
+          "condition": "Communities organized into extended kinship networks (clans, lineages) managing communal resources and intermarriage alliances",
+          "evidence_disciplines": ["archaeology", "anthropology"]
+        },
+        {
+          "condition": "Labor-intensive agriculture required coordinated group work (e.g., irrigation, clearing fields) and led to emerging division of labor and gender roles",
+          "evidence_disciplines": ["anthropology", "archaeology"]
+        }
+      ],
+      "dominant_values": [
+        {
+          "value": "Tribal loyalty",
+          "description": "Moral concern extended to a larger kin-based community (village or clan) beyond the immediate family, but still did not include unrelated outsiders",
+          "axis": "Moral scope"
+        },
+        {
+          "value": "Hereditary leadership",
+          "description": "Informal \"big men\" or chiefs and councils of elders began to hold authority, often based on lineage or control of surplus, marking a shift toward hierarchy",
+          "axis": "Authority structure"
+        },
+        {
+          "value": "Customary law and ritual",
+          "description": "Shared traditions, ancestor worship, and communal rituals (e.g., seasonal festivals for crops) provided social cohesion and conflict resolution in lieu of written laws",
+          "axis": "Social cohesion mechanism"
+        },
+        {
+          "value": "Communal obligation",
+          "description": "Individuals owed strong duties to their extended family and village (farm labor, defense, resource sharing), with personal autonomy often subordinated to communal needs and emerging inheritance norms",
+          "axis": "Individual autonomy vs collective obligation"
+        },
+        {
+          "value": "Sacred kinship norms",
+          "description": "Norms were justified by sacred tradition (e.g., reverence for ancestors, fertility deities) reinforcing family authority and land rites; social rules remained rooted in ritual and custom rather than codified law",
+          "axis": "Sacred/traditional norms vs rational-legal norms"
+        }
+      ],
+      "value_shift_summary": "The adoption of agriculture brought larger, sedentary communities and new social complexities. Early farming villages often retained egalitarian practices for generations, but eventually wealth accumulation and hereditary leadership emerged. Over this phase, values shifted from purely kin-band egalitarianism toward acceptance of property, stratification, and stronger collective obligations. Nevertheless, daily life and authority were still largely governed by kinship ties and sacred traditions, not formal institutions.",
+      "evidence": [
+        {
+          "finding": "Archaeological meta-analysis of early Neolithic settlements finds that for centuries after agriculture began, house sizes and grave goods remained relatively equal, suggesting that egalitarian social norms persisted initially despite the potential for surplus",
+          "discipline": "archaeology",
+          "source_type": "meta-analysis",
+          "confidence": "high"
+        },
+        {
+          "finding": "Later Neolithic sites (e.g., the Varna cemetery in Bulgaria, ~6500 BP) contain graves with extraordinary wealth (gold and prestige goods) alongside poorer burials, providing clear evidence of emerging social inequality and status differentiation",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Ancient DNA studies of Neolithic burials (e.g., large family tombs) show communities often consisted of extended kin groups with patrilineal descent, indicating that lineage and inherited family ties were central to social organization and resource rights",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Cross-cultural studies comparing subsistence types find that early agrarian societies emphasize child obedience and conformity more than hunter-gatherers do, reflecting the shift towards valuing discipline and duty necessary for farming life",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        },
+        {
+          "finding": "Evidence of fortifications and violent conflict (e.g., a mass grave from Talheim, Germany ~5000 BCE, showing victims of a village massacre) points to heightened territoriality and inter-group warfare in Neolithic farmers, implying a strong in-group loyalty and defense of land",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Ethnographic analogy from tribal horticultural societies (e.g., Melanesian \"Big Man\" systems) demonstrates how surplus food and wealth are used in competitive feasting to gain influence, suggesting that similar dynamics of status through resource distribution likely arose in Neolithic villages",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Large communal constructions in the Neolithic (such as megalithic tombs and stone circles) indicate collective ritual activities that would reinforce community bonds; these projects also hint at emerging social coordination and possibly leaders directing communal efforts, grounded in shared sacred values",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "phase": "Early Civilizational / Urban States",
+      "date_range": "~5,000–800 BCE",
+      "dominant_conditions": [
+        {
+          "condition": "Rise of cities and early states with large populations (tens of thousands); invention of writing and record-keeping for administration",
+          "evidence_disciplines": ["archaeology", "history"]
+        },
+        {
+          "condition": "Centralized governance under kings or emperors; emergence of bureaucracies, formal legal codes, and standing armies",
+          "evidence_disciplines": ["history", "anthropology"]
+        },
+        {
+          "condition": "Clear social stratification into classes (elites, commoners, slaves) and occupational specialization; economic inequality becomes pronounced",
+          "evidence_disciplines": ["archaeology", "history"]
+        },
+        {
+          "condition": "State-sponsored religions and monumental architecture (temples, pyramids) legitimize authority; frequent warfare and expansion of territorial states",
+          "evidence_disciplines": ["history", "archaeology"]
+        }
+      ],
+      "dominant_values": [
+        {
+          "value": "Civic identity",
+          "description": "Individuals identified with larger social units (city-state, kingdom), and moral duties extended to fellow citizens/subjects of the realm, though not universally to outsiders or slaves",
+          "axis": "Moral scope"
+        },
+        {
+          "value": "Centralized hierarchy",
+          "description": "Strong hierarchical authority became normal, with power concentrated in divine kings or ruling elites; obedience to rulers and acceptance of class structure were culturally reinforced",
+          "axis": "Authority structure"
+        },
+        {
+          "value": "Law and order",
+          "description": "Written laws and formal courts emerged as key mechanisms for social cohesion, replacing purely kin-based dispute resolution; state enforcement of justice and norms maintained social order",
+          "axis": "Social cohesion mechanism"
+        },
+        {
+          "value": "Collective duty",
+          "description": "Individuals were expected to fulfill obligations to the state (taxes, labor, military service) and to their social class; personal desires were subordinate to duties dictated by one's role in the larger society",
+          "axis": "Individual autonomy vs collective obligation"
+        },
+        {
+          "value": "Sacred kingship norms",
+          "description": "Legitimacy of authority and laws was derived from sacred tradition or divine sanction (e.g., kings as gods or chosen by gods); societal values were anchored in religious cosmologies rather than in secular reasoning",
+          "axis": "Sacred/traditional norms vs rational-legal norms"
+        }
+      ],
+      "value_shift_summary": "The formation of urban states expanded the scale of human society and entrenched new hierarchical values. Loyalty and identity shifted beyond kin to encompass cities and kingdoms, backed by formal laws and bureaucratic control. A strong acceptance of authority and inequality emerged, as rulers and social classes were often justified by sacred narratives. Social trust became vested in institutions (law codes, armies, temples) that maintained order across large populations. Although the moral circle grew to include fellow citizens of a state, it remained far from universal—outsiders and lower classes were typically outside the sphere of moral obligation.",
+      "evidence": [
+        {
+          "finding": "The earliest legal codes (such as Hammurabi's Code, ~1750 BCE) detail formalized rules and punishments, reflecting a societal value on order and justice; notably, these codes differentiate penalties by social status, evidencing an accepted stratification of moral worth by class",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Archaeological evidence of palaces, elaborate tombs (e.g., Egyptian pyramids), and luxury artifacts concentrated among elites indicates extreme wealth and power disparities, implying that people in early states valued and normalized strong hierarchy and social inequality",
+          "discipline": "archaeology",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Across early civilizations, rulers often claimed divine status or mandate (e.g., pharaohs in Egypt regarded as gods, Mesopotamian kings as chosen by gods), showing that political authority was commonly legitimized through sacred belief systems",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        },
+        {
+          "finding": "Thousands of preserved cuneiform tablets from Mesopotamia document bureaucratic accounting (temple offerings, grain rations), demonstrating that large populations relied on impersonal institutional mechanisms (record-keeping, redistribution by the state) to coordinate society, rather than personal reciprocity",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Comparative religion studies show that moralizing high gods (deities concerned with human ethics) are far more common in large-scale societies than in small tribes, suggesting that as societies grew, values evolved to include divine enforcement of broad social norms",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Historical records from this period (and later analyses) reveal widespread practices like slavery and caste systems, indicating that the moral community was not seen as including all humans; certain groups were explicitly devalued or excluded as part of the accepted social order",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Ancient artwork and texts often portray foreigners or neighboring peoples as inferior or enemies (for example, Egyptian pharaonic propaganda depicting conquered peoples as chaotic forces), reflecting a value system that elevated one's own civilization while justifying hostility or indifference to outsiders",
+          "discipline": "history",
+          "source_type": "cross-cultural study",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "phase": "Axial-Age to Medieval",
+      "date_range": "~800 BCE–1500 CE",
+      "dominant_conditions": [
+        {
+          "condition": "Emergence and spread of major world religions and philosophies (e.g., Buddhism, Confucianism, Christianity, Islam) across large regions",
+          "evidence_disciplines": ["history", "sociology"]
+        },
+        {
+          "condition": "Formation of vast empires and kingdoms (Roman, Han China, Maurya, Islamic Caliphates, etc.) and later medieval feudal systems; complex multi-ethnic societies",
+          "evidence_disciplines": ["history", "anthropology"]
+        },
+        {
+          "condition": "Expansion of long-distance trade and communication (Silk Road, trans-Saharan trade, etc.), facilitating cultural and value exchanges between societies",
+          "evidence_disciplines": ["history"]
+        },
+        {
+          "condition": "Institutionalization of religion (organized churches, monasteries, priestly hierarchies) and development of formal education and legal traditions (canon law, sharia, Confucian bureaucracy) that cross local community boundaries",
+          "evidence_disciplines": ["history", "sociology"]
+        }
+      ],
+      "dominant_values": [
+        {
+          "value": "Universalist religion ethics",
+          "description": "Religious and philosophical teachings promoted ethics (compassion, justice, golden-rule reciprocity) that in principle applied to all humanity, at least within the faith or empire, thus widening the theoretical moral scope",
+          "axis": "Moral scope"
+        },
+        {
+          "value": "Institutionalized hierarchy",
+          "description": "Authority was structured through enduring institutions like imperial bureaucracies, churches, and feudal lordships; social rank was formalized, yet these institutions provided continuity and some accountability beyond personal whim",
+          "axis": "Authority structure"
+        },
+        {
+          "value": "Religious-law cohesion",
+          "description": "Common religion and intertwining of moral law with civil law (e.g., religious law codes, universal moral ideals) held large populations together, creating a shared identity and normative order across cities and regions",
+          "axis": "Social cohesion mechanism"
+        },
+        {
+          "value": "Communal duty and honor",
+          "description": "Social roles (family, caste, guild, vassal) carried explicit duties; personal fulfillment was often expected to be found in honoring one's role and community, though spiritual salvation or virtue became an individual moral concern as well",
+          "axis": "Individual autonomy vs collective obligation"
+        },
+        {
+          "value": "Sacred legitimacy",
+          "description": "Governance and social norms drew legitimacy from religious or longstanding traditional authority (divine right of kings, Mandate of Heaven, sacred texts) even as some rational philosophy emerged; deviation from tradition often seen as heretical or illegal",
+          "axis": "Sacred/traditional norms vs rational-legal norms"
+        }
+      ],
+      "value_shift_summary": "This era saw the articulation of more universal moral ideals through religions and philosophies, yet everyday values remained anchored in established hierarchies and traditions. Large empires and religious communities created broader identities that transcended local ethnicity or kin, and people valued cohesion under shared faith and law. Authority became more institutional (bureaucracies, church hierarchy) but still justified by sacred tradition. Individuals were largely defined by their communal roles and were expected to uphold duties and honor codes. While notions of universal compassion or justice emerged in doctrine, in practice the application of these values was limited to one's own religious or cultural community, and intolerance toward out-groups persisted.",
+      "evidence": [
+        {
+          "finding": "During the Axial Age (c. 800–300 BCE), multiple civilizations independently developed philosophies emphasizing ethical principles transcending kinship (e.g., Confucius advocated ren (benevolence) broadly, Greek Stoics preached cosmopolitanism, Indian thinkers promoted ahimsa or non-violence), suggesting a parallel evolution toward more universal moral reasoning",
+          "discipline": "history",
+          "source_type": "cross-cultural study",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Edicts and texts from major religions/philosophies explicitly promote universal ethics: e.g., Emperor Ashoka's 3rd c. BCE inscriptions urge non-violence and welfare for all beings, the Christian New Testament teaches love for one's neighbor, and Islamic teachings stress charity and justice for the ummah (community of believers)",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Imperial governance in this era often incorporated institutional checks: for instance, Han China (2nd c. BCE) used examinations and Confucian bureaucracy to select officials on merit, and the medieval Catholic Church formed an administrative canon law system, indicating a shift toward impersonal, rule-based authority structures",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Documents like the Magna Carta (1215 CE) show emerging rational-legal concepts by legally binding even the king to certain rules, reflecting growing acceptance of the idea that laws (not just divine decree) govern society; however, these constraints were initially limited to elites and justified within a sacred worldview",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Sociological analysis of pre-modern civilizations indicates that a shared religion or ideology was crucial for social cohesion in large populations: common religious law (such as sharia in the Islamic Caliphate or canon law in Europe) and identity allowed millions of strangers to cooperate under a unified moral framework",
+          "discipline": "sociology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        },
+        {
+          "finding": "Chroniclers and records from this period also reveal that universalist ideals had limits: those deemed outside the true faith or social order (infidels, heretics, lower castes) were often marginalized or treated harshly (e.g., Crusades against non-Christians, Hindu caste restrictions), showing that practical moral concern still largely excluded out-groups",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Feudal and ethical codes (such as medieval European chivalry or Japanese Bushido) placed high value on loyalty, honor, and duty within one's social role (knight, samurai, etc.), reinforcing collective obligations and virtues over individual aspirations, as evidenced by contemporary literature and law",
+          "discipline": "history",
+          "source_type": "cross-cultural study",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Modern cross-cultural experiments (Ultimatum Game studies) show that participants from societies with longer histories of market trade and world religions tend to share more fairly with strangers, implying that historically the spread of commerce and universalist religions expanded norms of fairness and trust beyond kin networks",
+          "discipline": "anthropology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "phase": "Early Modern / Industrial",
+      "date_range": "~1500–1900 CE",
+      "dominant_conditions": [
+        {
+          "condition": "Global exploration and colonization connected continents; expansive trade networks and the rise of capitalist economies",
+          "evidence_disciplines": ["history", "economics"]
+        },
+        {
+          "condition": "Scientific Revolution and Enlightenment in Europe introduced secular, rationalist thought; proliferation of printed media spreads new ideas widely",
+          "evidence_disciplines": ["history"]
+        },
+        {
+          "condition": "Formation of nation-states with central bureaucracies; political revolutions and reforms (e.g., American, French Revolutions) challenging monarchic and religious authorities",
+          "evidence_disciplines": ["history", "political science"]
+        },
+        {
+          "condition": "Industrialization and urbanization accelerate; class structure shifts (decline of feudal lords, rise of bourgeoisie and working class) and widespread social mobility compared to previous eras",
+          "evidence_disciplines": ["sociology", "history"]
+        }
+      ],
+      "dominant_values": [
+        {
+          "value": "Humanitarian universalism",
+          "description": "Emerging ideal that all human beings have inherent rights and dignity; moral concern increasingly framed in terms of universal human rights (though implementation was incomplete and often limited to certain groups at first)",
+          "axis": "Moral scope"
+        },
+        {
+          "value": "Rational-legal authority",
+          "description": "Governance rooted in legal codes, constitutions, and bureaucratic institutions rather than personal lineage; legitimacy comes from rule of law and (eventually) consent of the governed, rather than divine right",
+          "axis": "Authority structure"
+        },
+        {
+          "value": "National and ideological cohesion",
+          "description": "People rallied around abstract communities like the nation or political ideologies; national identity, civic ideals, and codified laws created social cohesion, often replacing or diminishing prior religious or feudal loyalties",
+          "axis": "Social cohesion mechanism"
+        },
+        {
+          "value": "Individual rights and liberties",
+          "description": "Increased emphasis on individual autonomy and freedom (speech, religion, economic activity); personal choice and self-determination became core values in society and law, gradually extending to broader populations over time",
+          "axis": "Individual autonomy vs collective obligation"
+        },
+        {
+          "value": "Secular ethics and law",
+          "description": "Moral and legal norms shifted toward secular, humanistic principles informed by reason and scientific thought (e.g., secular constitutions, decline of theocratic law), although traditional and religious values still influenced private life",
+          "axis": "Sacred/traditional norms vs rational-legal norms"
+        }
+      ],
+      "value_shift_summary": "The early modern and industrial period brought radical shifts in values, especially in the West. Enlightenment secularism and scientific thinking challenged sacred and royal authorities, promoting ideals of universal human rights and empirical reason. Hierarchies based purely on birth were increasingly questioned as merit-based bureaucracies and democratic movements took hold. Nationalism and liberal ideologies provided new sources of social cohesion, while individuals gained greater legal and economic freedoms than before. Society gradually moved toward rational-legal norms in public life, even as many traditional values persisted, and contradictions like colonialism and inequality showed that changes in dominant values were uneven and contested.",
+      "evidence": [
+        {
+          "finding": "Enlightenment-era political texts and revolutions (e.g., the 1776 American Declaration of Independence and 1789 French Declaration of the Rights of Man) proclaimed that all men are created equal with innate rights, signaling a normative shift toward viewing humanity in universal and individual terms rather than as estates or castes",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Between the 18th and 19th centuries, legal abolition of slavery and serfdom occurred across much of the world (e.g., Britain 1833, US 1865, Russia 1861), reflecting a growing consensus that individual freedom is a core value and that the moral community should include people previously deemed outside it",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "By the 19th century, many states had adopted constitutions and secular legal codes (for example, the Napoleonic Code of 1804) that embodied Enlightenment principles of uniform justice and rights, replacing patchworks of traditional, religious, or feudal laws with rationalized legal systems",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "high"
+        },
+        {
+          "finding": "Quantitative analysis of language in books from 1800–2000 (using Google Ngram data) shows a steady increase in the use of individualistic words (e.g., 'self', 'rights', 'freedom') and a decline in collectivist or deferential terms, which correlates with industrialization and suggests a cultural shift toward valuing individual autonomy",
+          "discipline": "psychology",
+          "source_type": "longitudinal survey",
+          "confidence": "high"
+        },
+        {
+          "finding": "Sociological studies of family and living arrangements during industrialization note the transition from extended family living to nuclear families and increased geographic mobility; this aligns with weakening of traditional collective obligations and greater emphasis on individual choice (e.g., young adults leaving home for work, marrying for love)",
+          "discipline": "sociology",
+          "source_type": "meta-analysis",
+          "confidence": "medium"
+        },
+        {
+          "finding": "The 18th–19th centuries saw the rise of mass public education and scientific societies, reflecting a value shift toward rational inquiry and evidence-based knowledge; growing literacy and scientific output show society placing greater trust in secular, educated discourse",
+          "discipline": "history",
+          "source_type": "meta-analysis",
+          "confidence": "high"
+        },
+        {
+          "finding": "Historical accounts reveal that Enlightenment and industrial-era powers often upheld racist or colonial hierarchies (e.g., \"civilizing mission\" ideologies) even while espousing universal rights, demonstrating that the adoption of human equality values was partial and often hypocritical during this period",
+          "discipline": "history",
+          "source_type": "archaeological evidence",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Statistical historical studies in Europe show a dramatic decline in interpersonal violence from medieval times to the 19th century (e.g., homicide rates per capita fell by an order of magnitude), suggesting that cultural norms shifted toward greater self-control and value for human life as state governance and Enlightenment ideals spread",
+          "discipline": "sociology",
+          "source_type": "meta-analysis",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "phase": "Late Modern / Post-Industrial",
+      "date_range": "1900 CE–Present",
+      "dominant_conditions": [
+        {
+          "condition": "Rapid globalization, communication technology (telecommunications, internet) and international migration create an interconnected, information-rich world",
+          "evidence_disciplines": ["sociology", "history"]
+        },
+        {
+          "condition": "Predominance of nation-states with widespread adoption of democratic governance and international institutions (United Nations, etc.), alongside some authoritarian regimes",
+          "evidence_disciplines": ["political science"]
+        },
+        {
+          "condition": "Mass education and media exposure lead to higher literacy and awareness of global issues; science and technology drive economic and social change",
+          "evidence_disciplines": ["sociology", "education studies"]
+        },
+        {
+          "condition": "Post-industrial economic shifts (service and information sectors) in advanced societies; increased urbanization and diversity within societies, requiring new pluralistic norms",
+          "evidence_disciplines": ["economics", "sociology"]
+        }
+      ],
+      "dominant_values": [
+        {
+          "value": "Global humanism",
+          "description": "Widespread endorsement of universal human rights, equality across races and genders, and concern for global issues; moral scope expanded to all humanity and even other sentient beings (animals) in ethical discourse",
+          "axis": "Moral scope"
+        },
+        {
+          "value": "Democratic institutionalism",
+          "description": "Authority derives from formal institutions bound by law and, in many cases, democratic elections; legitimacy is based on legal-rational rules and collective agreement rather than tradition or charisma",
+          "axis": "Authority structure"
+        },
+        {
+          "value": "Abstract social networks",
+          "description": "Social cohesion maintained by impersonal systems and shared ideologies: rule of law, market economies, social media communities, and international norms enable cooperation among strangers on large scales",
+          "axis": "Social cohesion mechanism"
+        },
+        {
+          "value": "Self-expression and diversity",
+          "description": "High value is placed on individual self-expression, personal identity, and diversity of lifestyles; personal freedom in choices (career, beliefs, relationships) is often seen as a core societal good, tempered by some collective responsibilities (e.g., human rights obligations, environmental stewardship)",
+          "axis": "Individual autonomy vs collective obligation"
+        },
+        {
+          "value": "Secular-rational norms",
+          "description": "Secular, scientific, and rationalist principles dominate public policy and discourse (e.g., separation of church and state, evidence-based decision making), although cultural traditions and religions persist in the private sphere and in some communities",
+          "axis": "Sacred/traditional norms vs rational-legal norms"
+        }
+      ],
+      "value_shift_summary": "In the contemporary world, dominant values have increasingly emphasized universal inclusion, rational governance, and individual autonomy. Global consciousness and human rights norms extend moral consideration to all people (and even to animals and the environment in many cases). Authority is largely vested in bureaucratic and democratic institutions, and social order is maintained through complex, impersonal networks such as legal systems, markets, and global media. Individuals enjoy unprecedented personal freedoms and are encouraged to express their identities, although this exists in tension with new collective challenges that require global cooperation. Traditional and sacred norms still exist but have generally receded from the center of public life, which is now guided by secular and rational principles on a global scale.",
+      "evidence": [
+        {
+          "finding": "Worldwide survey data (e.g., multiple waves of the World Values Survey since 1981) show that as countries develop economically, values tend to shift from traditional authority and survival priorities toward more secular, emancipative values and tolerance, supporting a broad pattern of value change in the modern era",
+          "discipline": "sociology",
+          "source_type": "longitudinal survey",
+          "confidence": "high"
+        },
+        {
+          "finding": "International institutions and charters (such as the United Nations and the 1948 Universal Declaration of Human Rights) formally recognize equal rights and dignity for all humans, reflecting and reinforcing a global value consensus on universalism and legal-rational norms in governance",
+          "discipline": "political science",
+          "source_type": "meta-analysis",
+          "confidence": "high"
+        },
+        {
+          "finding": "Global statistics indicate significant declines in state-sanctioned violence (e.g., major wars between great powers) and improvements in health and lifespan in the late 20th century, which researchers partly attribute to the spread of international norms valuing peace, human rights, and cooperation (though these trends are subject to debate and regional exceptions)",
+          "discipline": "political science",
+          "source_type": "meta-analysis",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Long-term studies of social attitudes document increased acceptance of individual rights and minority groups over the 20th century (e.g., growing support for gender equality, racial equality, and LGBTQ+ rights), indicating a strong move toward valuing individual autonomy and inclusion in many societies",
+          "discipline": "psychology",
+          "source_type": "longitudinal survey",
+          "confidence": "high"
+        },
+        {
+          "finding": "Cross-generational and cross-cultural research finds that younger cohorts (especially in urban, educated populations worldwide) prioritize self-expression, creativity, and equality more than older generations, consistent with ongoing cultural shifts toward individualism and openness in the post-industrial context",
+          "discipline": "psychology",
+          "source_type": "cross-cultural study",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Recent decades have seen the rise of movements for animal rights and environmental protection (e.g., wildlife conservation treaties, climate change accords), signaling that moral concern is being extended beyond the human sphere and that stewardship of the planet is becoming a shared value",
+          "discipline": "environmental science",
+          "source_type": "longitudinal survey",
+          "confidence": "medium"
+        },
+        {
+          "finding": "Despite global trends, there are pronounced regional differences in values today (for example, some societies retain strongly traditional, collectivist orientations while others are highly individualist and secular); research shows these differences correlate with historical, economic, and cultural trajectories, highlighting that value evolution is not homogeneous or unilinear",
+          "discipline": "sociology",
+          "source_type": "cross-cultural study",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "notes_on_limitations": [
+    "General patterns described may mask significant regional and cultural variation; not all societies transitioned at the same time or followed the same path, and some changes occurred in different sequences or degrees.",
+    "Many interpretations for prehistoric and ancient values are based on indirect evidence (archaeological finds, ethnographic analogy) and thus carry uncertainty; the farther back in time, the more inferential our conclusions about values become.",
+    "Value evolution was not strictly linear or inevitable; periods of collapse or resistance (e.g., cultural revolutions, fundamentalist revivals) have reversed or stalled certain trends, indicating that social values can and do regress or diverge under stress.",
+    "Correlations between societal complexity and value shifts (such as larger societies having broader moral scopes) do not prove one caused the other; changes in values likely resulted from a combination of ecological pressures, technological innovations, and deliberate cultural choices.",
+    "Some scholarly theories referenced (e.g., the concept of an Axial Age revolution in values, or reasons for modern violence decline) are contested, so certain value shifts and their drivers remain under debate and cannot be asserted with absolute confidence.",
+    "No teleological progression is implied by this model: later values are not inherently \"better\" or more advanced, but are adaptations to different social and material conditions. Each phase's dominant values had trade-offs and were functional in their context."
+  ]
+}
